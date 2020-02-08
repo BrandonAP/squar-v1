@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'footer-icons';
+  src:  url('fonts/footer-icons.eot?da4k3');
+  src:  url('fonts/footer-icons.eot?da4k3#iefix') format('embedded-opentype'),
+    url('fonts/footer-icons.ttf?da4k3') format('truetype'),
+    url('fonts/footer-icons.woff?da4k3') format('woff'),
+    url('fonts/footer-icons.svg?da4k3#footer-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'footer-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spotify-with-circle:before {
+  content: "\e900";
+}
+.icon-spotify:before {
+  content: "\e901";
+}
+.icon-dribbble-with-circle:before {
+  content: "\e902";
+}
+.icon-dribbble:before {
+  content: "\e907";
+}
+.icon-facebook-with-circle:before {
+  content: "\e903";
+}
+.icon-instagram-with-circle:before {
+  content: "\e90b";
+}
+.icon-tumblr-with-circle:before {
+  content: "\e908";
+}
+.icon-twitter-with-circle:before {
+  content: "\e906";
+}
+.icon-youtube-with-circle:before {
+  content: "\e905";
+}
+.icon-dribbble1:before {
+  content: "\e90c";
+  color: #ea4c89;
+}
+.icon-facebook-icon:before {
+  content: "\e909";
+  color: #4172b8;
+}
+.icon-github:before {
+  content: "\e91f";
+}
+.icon-instagram-icon:before {
+  content: "\e904";
+  color: #e4405f;
+}
+.icon-twitter-icon:before {
+  content: "\e90a";
+  color: #1da1f2;
+}
